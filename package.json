@@ -2,13 +2,20 @@
   "name": "tailwind-intro",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamepic/tailwind-intro.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamepic/tailwind-intro/issues"
+  },
+  "homepage": "https://github.com/lamepic/tailwind-intro#readme",
   "dependencies": {
     "tailwindcss": "^3.0.13"
   }
